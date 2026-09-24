@@ -3,7 +3,7 @@
 Tutorial notebooks and notes for the
 [Quantum Computing Spring School 2026](https://afriqa.ukzn.ac.za/event/quantum-computing-spring-school-2026/),
 hosted by the African Quantum Alliance (AfriQA) and the University of
-KwaZulu-Natal, 23–26 September 2026.
+KwaZulu-Natal, 24–26 September 2026.
 
 ## About the school
 
@@ -16,8 +16,7 @@ covers:
 - Quantum machine learning
 
 Lecturers: Ian David (UKZN), Thomas Konrad (UKZN), Matt Lourens (Stellenbosch
-University), Shivani Pillay (UKZN), Ilya Sinayskiy (UKZN) and Eric Brunner
-(Quantinuum, to be confirmed).
+University), Shivani Pillay (UKZN) and Ilya Sinayskiy (UKZN).
 
 For the programme, venue and contact details, see the
 [school's event page](https://afriqa.ukzn.ac.za/event/quantum-computing-spring-school-2026/).
