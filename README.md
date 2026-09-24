@@ -1,40 +1,53 @@
 # Quantum Computing Spring School 2026
 
-Tutorial notebooks for the computing stream of the SAQUTI Quantum Technologies
-School: four hands-on sessions that take you from your first lines of Python to
-simulating quantum systems with [Qiskit](https://www.ibm.com/quantum/qiskit).
+Tutorial notebooks and notes for the
+[Quantum Computing Spring School 2026](https://afriqa.ukzn.ac.za/event/quantum-computing-spring-school-2026/),
+hosted by the African Quantum Alliance (AfriQA) and the University of
+KwaZulu-Natal, 23–26 September 2026.
 
-No prior programming experience is assumed. Everything runs on your own laptop
-using classical simulators, so you don't need an IBM Quantum account.
+## About the school
 
-## Sessions
+The spring school is aimed at Honours, Master's and Doctoral students, and
+covers:
 
-| # | Session | Material |
-|---|---|---|
-| 1 | **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib | [notebook](session-1-python-intro/01_intro_python_for_quantum_computing.ipynb) · [PDF](session-1-python-intro/01_intro_python_for_quantum_computing.pdf) |
-| 2 | **Quantum States, Circuits & Measurement**: qubits, unitaries and measurement built by hand in NumPy, then the same ideas in Qiskit | coming soon |
-| 3 | **Quantum Algorithms**: oracles and phase kickback, Deutsch–Jozsa, and Grover's search | coming soon |
-| 4 | **Quantum Simulation of Hamiltonians**: Trotter, Suzuki and QDrift product formulas, applied to the transverse-field Ising chain | coming soon |
+- Basic quantum algorithms
+- Variational quantum algorithms
+- Simulation of quantum systems
+- Quantum machine learning
 
-Each session is a Jupyter notebook you work through live. Exercises are
-followed by a solution cell, so try each one before running the solution.
-The PDF has the same content as printable notes.
+Lecturers: Ian David (UKZN), Thomas Konrad (UKZN), Matt Lourens (Stellenbosch
+University), Shivani Pillay (UKZN), Ilya Sinayskiy (UKZN) and Eric Brunner
+(Quantinuum, to be confirmed).
 
-## Before the school: set up your laptop
+For the programme, venue and contact details, see the
+[school's event page](https://afriqa.ukzn.ac.za/event/quantum-computing-spring-school-2026/).
 
-Please do this **at least a few days before the school starts**.
+## Tutorials
 
-1. Follow the [pre-school setup guide](setup/pre_school_setup_guide.pdf). It
-   walks you through installing Anaconda, creating the `saqutischool`
-   environment and installing Qiskit on Windows, macOS or Linux.
+The tutorials are Jupyter notebooks you work through on your own laptop. All
+code runs on classical simulators, so you don't need access to quantum
+hardware or an IBM Quantum account. Exercises are followed by a solution cell,
+so try each one before running the solution.
+
+| Tutorial | Material |
+|---|---|
+| **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib. No prior programming experience assumed. | [notebook](session-1-python-intro/01_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-1-python-intro/01_intro_python_for_quantum_computing.pdf) |
+
+More tutorials will be added to this repository as the school goes on.
+
+## Setting up your laptop
+
+1. Follow the [setup guide](setup/pre_school_setup_guide.pdf). It walks you
+   through installing Anaconda, creating the `saqutischool` environment and
+   installing [Qiskit](https://www.ibm.com/quantum/qiskit) on Windows, macOS
+   or Linux.
 2. Download this repository (see below), start JupyterLab from your
    `saqutischool` environment, and open
    [`setup/00_environment_check.ipynb`](setup/00_environment_check.ipynb).
 3. Run all cells (**Run → Run All Cells**). If you see a circuit diagram and a
    histogram with two bars of about equal height, you're ready.
 
-Having trouble? Get in touch with the organisers **before** you arrive, so
-setup problems don't eat into session time.
+If something doesn't work, ask one of the tutors.
 
 ## Getting the material
 
@@ -45,18 +58,17 @@ git clone https://github.com/ilsinay/Quantum-Computing-Spring-School-2026.git
 cd Quantum-Computing-Spring-School-2026
 ```
 
+To fetch tutorials added later, run `git pull` inside that folder.
+
 Without git, use **Code → Download ZIP** on the
 [repository page](https://github.com/ilsinay/Quantum-Computing-Spring-School-2026)
-and unzip it.
-
-New sessions will be added here before the school. If you cloned with git,
-`git pull` fetches them. If you downloaded the ZIP, download it again.
+and unzip it. Download it again to get new tutorials.
 
 ## Repository layout
 
 ```
 setup/                   Setup guide (PDF) and the environment check notebook
-session-1-python-intro/  Session 1 notebook and PDF notes
+session-1-python-intro/  Introduction to Python: notebook and PDF notes
 ```
 
 ## Licence
