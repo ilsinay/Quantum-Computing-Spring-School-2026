@@ -31,6 +31,7 @@ so try each one before running the solution.
 | Tutorial | Material |
 |---|---|
 | **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib. No prior programming experience assumed. | [notebook](session-1-python-intro/01_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-1-python-intro/01_intro_python_for_quantum_computing.pdf) |
+| **Quantum States, Circuits & Measurement**: qubit states, unitaries, circuits and measurement built by hand in NumPy and SciPy, then the same ideas in Qiskit with `QuantumCircuit`, `Statevector`, samplers, estimators and the Aer simulator. | [notebook](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.ipynb) · [PDF notes](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.pdf) |
 
 More tutorials will be added to this repository as the school goes on.
 
@@ -66,8 +67,9 @@ and unzip it. Download it again to get new tutorials.
 ## Repository layout
 
 ```
-setup/                   Setup guide (PDF) and the environment check notebook
-session-1-python-intro/  Introduction to Python: notebook and PDF notes
+setup/                              Setup guide (PDF) and the environment check notebook
+session-1-python-intro/             Introduction to Python: notebook and PDF notes
+session-2-quantum-computing-qiskit/ Quantum states, circuits & measurement: notebook and PDF notes
 ```
 
 ## Licence
