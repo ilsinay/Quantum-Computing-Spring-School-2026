@@ -33,6 +33,7 @@ so try each one before running the solution.
 | **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib. No prior programming experience assumed. | [notebook](session-1-python-intro/01_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-1-python-intro/01_intro_python_for_quantum_computing.pdf) |
 | **Quantum States, Circuits & Measurement**: qubit states, unitaries, circuits and measurement built by hand in NumPy and SciPy, then the same ideas in Qiskit with `QuantumCircuit`, `Statevector`, samplers, estimators and the Aer simulator. | [notebook](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.ipynb) · [PDF notes](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.pdf) |
 | **Quantum Algorithms**: oracles and phase kickback, the Deutsch–Jozsa algorithm, and Grover's search, including how many iterations Grover needs and why. | [notebook](session-3-quantum-algorithms-qiskit/03_quantum_algorithms_qiskit.ipynb) · [PDF notes](session-3-quantum-algorithms-qiskit/03_quantum_algorithms_qiskit.pdf) |
+| **Quantum Simulation of Hamiltonians**: why Hamiltonian simulation matters, first- and second-order Trotter–Suzuki product formulas and QDrift, compared on the transverse-field Ising chain. | [notebook](session-4-quantum-simulation-qiskit/04_quantum_simulation_qiskit.ipynb) · [PDF notes](session-4-quantum-simulation-qiskit/04_quantum_simulation_qiskit.pdf) |
 
 More tutorials will be added to this repository as the school goes on.
 
@@ -72,6 +73,7 @@ setup/                               Setup guide (PDF) and the environment check
 session-1-python-intro/              Introduction to Python: notebook and PDF notes
 session-2-quantum-computing-qiskit/  Quantum states, circuits & measurement: notebook and PDF notes
 session-3-quantum-algorithms-qiskit/ Quantum algorithms: notebook and PDF notes
+session-4-quantum-simulation-qiskit/ Quantum simulation of Hamiltonians: notebook and PDF notes
 ```
 
 ## Licence
