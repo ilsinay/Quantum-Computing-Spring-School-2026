@@ -28,12 +28,18 @@ code runs on classical simulators, so you don't need access to quantum
 hardware or an IBM Quantum account. Exercises are followed by a solution cell,
 so try each one before running the solution.
 
-| Tutorial | Material |
-|---|---|
-| **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib. No prior programming experience assumed. | [notebook](session-1-python-intro/01_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-1-python-intro/01_intro_python_for_quantum_computing.pdf) |
-| **Quantum States, Circuits & Measurement**: qubit states, unitaries, circuits and measurement built by hand in NumPy and SciPy, then the same ideas in Qiskit with `QuantumCircuit`, `Statevector`, samplers, estimators and the Aer simulator. | [notebook](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.ipynb) · [PDF notes](session-2-quantum-computing-qiskit/02_intro_quantum_computing_qiskit.pdf) |
-| **Quantum Algorithms**: oracles and phase kickback, the Deutsch–Jozsa algorithm, and Grover's search, including how many iterations Grover needs and why. | [notebook](session-3-quantum-algorithms-qiskit/03_quantum_algorithms_qiskit.ipynb) · [PDF notes](session-3-quantum-algorithms-qiskit/03_quantum_algorithms_qiskit.pdf) |
-| **Quantum Simulation of Hamiltonians**: why Hamiltonian simulation matters, first- and second-order Trotter–Suzuki product formulas and QDrift, compared on the transverse-field Ising chain. | [notebook](session-4-quantum-simulation-qiskit/04_quantum_simulation_qiskit.ipynb) · [PDF notes](session-4-quantum-simulation-qiskit/04_quantum_simulation_qiskit.pdf) |
+Sessions are numbered in the order of the school programme, so a few numbers
+are not used by a tutorial yet.
+
+| Session | Programme slot | Tutorial | Material |
+|---|---|---|---|
+| 1 | Thu 24 Sep · Lecture 1 | **Basic Quantum Algorithms** (lecture slides) | [slides](session-1-lecture-basic-quantum-algorithms/QCworkshop24.Sept.pdf) |
+| 2 | Thu 24 Sep, 14:00 · Python for Quantum Computing | **Introduction to Python for Quantum Computing**: variables, control flow, data structures, functions, packages and environments, NumPy, SciPy and Matplotlib. No prior programming experience assumed. | [notebook](session-2-python-intro/02_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-2-python-intro/02_intro_python_for_quantum_computing.pdf) |
+| 4 | Thu 24 Sep, 20:00 · Qiskit Lab I: Basics of Quantum Computing | **Quantum States, Circuits & Measurement**: qubit states, unitaries, circuits and measurement built by hand in NumPy and SciPy, then the same ideas in Qiskit with `QuantumCircuit`, `Statevector`, samplers, estimators and the Aer simulator. | [notebook](session-4-quantum-computing-qiskit/04_intro_quantum_computing_qiskit.ipynb) · [PDF notes](session-4-quantum-computing-qiskit/04_intro_quantum_computing_qiskit.pdf) |
+| 5 | Fri 25 Sep, 09:00 · Qiskit Lab II: Basics of Quantum Computing | **Quantum Algorithms**: oracles and phase kickback, the Deutsch–Jozsa algorithm, and Grover's search, including how many iterations Grover needs and why. | [notebook](session-5-quantum-algorithms-qiskit/05_quantum_algorithms_qiskit.ipynb) · [PDF notes](session-5-quantum-algorithms-qiskit/05_quantum_algorithms_qiskit.pdf) |
+| 8 | Fri 25 Sep, 16:00 · Qiskit Lab III: VQE | **Variational Quantum Eigensolver (VQE)** | [notebook](session-8-vqe/vqe_tutorial_student.ipynb) |
+| 9 | Fri 25 Sep, 20:00 · Qiskit Lab IV: QAOA | **QAOA for MaxCut** | [notebook](session-9-QAOA/09_QAOA_MaxCut.ipynb) |
+| 13 | Sat 26 Sep, 16:00 · QSim laboratory | **Quantum Simulation of Hamiltonians**: why Hamiltonian simulation matters, first- and second-order Trotter–Suzuki product formulas and QDrift, compared on the transverse-field Ising chain. | [notebook](session-13-quantum-simulation-qiskit/13_quantum_simulation_qiskit.ipynb) · [PDF notes](session-13-quantum-simulation-qiskit/13_quantum_simulation_qiskit.pdf) |
 
 More tutorials will be added to this repository as the school goes on.
 
@@ -69,11 +75,14 @@ and unzip it. Download it again to get new tutorials.
 ## Repository layout
 
 ```
-setup/                               Setup guide (PDF) and the environment check notebook
-session-1-python-intro/              Introduction to Python: notebook and PDF notes
-session-2-quantum-computing-qiskit/  Quantum states, circuits & measurement: notebook and PDF notes
-session-3-quantum-algorithms-qiskit/ Quantum algorithms: notebook and PDF notes
-session-4-quantum-simulation-qiskit/ Quantum simulation of Hamiltonians: notebook and PDF notes
+setup/                                      Setup guide (PDF) and the environment check notebook
+session-1-lecture-basic-quantum-algorithms/ Session 1: Lecture 1 slides
+session-2-python-intro/                     Session 2: Python for Quantum Computing
+session-4-quantum-computing-qiskit/         Session 4: Qiskit Lab I
+session-5-quantum-algorithms-qiskit/        Session 5: Qiskit Lab II
+session-8-vqe/                              Session 8: Qiskit Lab III (VQE)
+session-9-QAOA/                             Session 9: Qiskit Lab IV (QAOA)
+session-13-quantum-simulation-qiskit/       Session 13: QSim laboratory
 ```
 
 ## Licence
