@@ -30,8 +30,8 @@ access to quantum hardware or an IBM Quantum account.
 
 | # | When | Programme | Material |
 |---|---|---|---|
-| 1 | Thu 24 Sep | Lecture 1: Basic Quantum Algorithms (Deutsch, Deutsch–Jozsa, Grover) | [slides](session-01-basic-quantum-algorithms/QCworkshop24.Sept.pdf) |
-| 2 | Thu 24 Sep, 14:00 | Python for Quantum Computing | [notebook](session-02-python-for-quantum-computing/02_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-02-python-for-quantum-computing/02_intro_python_for_quantum_computing.pdf) |
+| 1 | Thu 24 Sep, 14:00 | Python for Quantum Computing | [notebook](session-01-python-for-quantum-computing/01_intro_python_for_quantum_computing.ipynb) · [PDF notes](session-01-python-for-quantum-computing/01_intro_python_for_quantum_computing.pdf) |
+| 2 | Thu 24 Sep | Lecture: Basic Quantum Algorithms (Deutsch, Deutsch–Jozsa, Grover) | [slides](session-02-basic-quantum-algorithms/QCworkshop24.Sept.pdf) |
 | 3 | Thu 24 Sep, 16:00 | Quantum Computing Essentials | not in this repository |
 | 4 | Thu 24 Sep, 20:00 | Qiskit Lab I: Basics of Quantum Computing (states, circuits and measurement) | [notebook](session-04-qiskit-lab-1/04_intro_quantum_computing_qiskit.ipynb) · [PDF notes](session-04-qiskit-lab-1/04_intro_quantum_computing_qiskit.pdf) |
 | 5 | Fri 25 Sep, 09:00 | Qiskit Lab II: Basics of Quantum Computing (oracles, Deutsch–Jozsa, Grover) | [notebook](session-05-qiskit-lab-2/05_quantum_algorithms_qiskit.ipynb) · [PDF notes](session-05-qiskit-lab-2/05_quantum_algorithms_qiskit.pdf) |
@@ -54,6 +54,9 @@ access to quantum hardware or an IBM Quantum account.
    [`setup/00_environment_check.ipynb`](setup/00_environment_check.ipynb).
 3. Run all cells (**Run → Run All Cells**). If you see a circuit diagram and a
    histogram with two bars of about equal height, you're ready.
+
+No installation possible? You can run every notebook in your browser with
+Google Colab instead; see [Running the notebooks in Google Colab](setup/google_colab.md).
 
 Some laboratories use packages beyond the setup guide:
 
@@ -81,9 +84,9 @@ and unzip it. Download it again to get any updates.
 ## Repository layout
 
 ```
-setup/                                        Setup guide and environment check notebook
-session-01-basic-quantum-algorithms/          Lecture 1 slides
-session-02-python-for-quantum-computing/      Python for Quantum Computing: notebook and PDF notes
+setup/                                        Setup guide, Google Colab guide and environment check notebook
+session-01-python-for-quantum-computing/      Python for Quantum Computing: notebook and PDF notes
+session-02-basic-quantum-algorithms/          Basic Quantum Algorithms lecture slides
 session-04-qiskit-lab-1/                      Qiskit Lab I: notebook and PDF notes
 session-05-qiskit-lab-2/                      Qiskit Lab II: notebook and PDF notes
 session-06-07-variational-quantum-algorithms/ VQA I and II: slides and handwritten notes
